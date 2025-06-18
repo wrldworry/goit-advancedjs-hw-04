@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+          class="search-input"
+        />
+        <button type="submit" class="search-btn">Search</button>
+      </form>
+    </header>
+
+    <main>
+      <div class="loader hidden">Loading...</div>
+      <ul class="gallery"></ul>
+      <button type="button" class="load-more-btn hidden">Load more</button>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
