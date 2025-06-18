@@ -224,7 +224,7 @@ main {
     gap: 16px;
   }
 
-  .search-form {
+  .form {
     flex-direction: column;
   }
 
